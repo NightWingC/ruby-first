@@ -32,3 +32,23 @@ puts 16.to_s.class
 
 # Conversion a valor flotante 
 puts 16.to_f
+
+# comparación 
+puts 1 == 1
+# Objeto del boolean
+puts (1 == 1).class
+
+# diferencia
+puts 1 != 2
+puts 1 != 1
+
+# operadores logicos
+puts 2 > 3
+puts 2 < 3
+puts 2 <= 3
+puts 2 >= 3
+
+# comparar igual en su valor y su tipo 
+puts 2 === 3
+
+puts String === "Hola mundo"
