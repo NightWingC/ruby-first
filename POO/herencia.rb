@@ -9,6 +9,7 @@ class Documento
         @readonly = readonly
         @create_at = Time.now
         @updated_at = Time.now 
+        @author = "Javier"
     end
 
 
@@ -29,6 +30,8 @@ class Documento
     def metodo_protegido
         puts "Metodo protegido"
     end
+
+    attr_accessor : author
 end
 
 class DocumentoTexto < Documento
@@ -45,6 +48,10 @@ class DocumentoTexto < Documento
 
     def invocar_metodo
         metodo_protegido
+    end
+
+    def nombre_autor
+        "El nombre del autor es: #{ author }"
     end
 end
 
@@ -81,3 +88,4 @@ puts html.nombre_documento
 html.imprimir
 
 texto.invocar_metodo
+puts texto.nombre_autor
