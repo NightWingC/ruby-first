@@ -31,7 +31,7 @@ class Documento
         puts "Metodo protegido"
     end
 
-    attr_accessor : author
+    attr_accessor :author
 end
 
 class DocumentoTexto < Documento
