@@ -33,8 +33,9 @@ end
 
 p "La moda es: #{simple_mode([ 10,4,5,2,4 ])}"
 p "La moda es: #{simple_mode([ 5,10,10,6,5 ])}"
-p "La moda es: #{simple_mode([ 5,10,10,6,5,6 ])}"
-p "La moda es: #{simple_mode([ 5,10,12,6,7 ])}"
+p " La moda es: #{simple_mode([ 5,10,10,6,5,6 ])}"
+p " La moda es: #{simple_mode([ 5,10,12,6,7 ])}"
+
 
 
 
